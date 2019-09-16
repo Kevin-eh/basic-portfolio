@@ -1,0 +1,16 @@
+
+.header {
+    padding: 20px;
+    color: white;
+    background: #4aaaa5;
+    margin-bottom: 15px;
+  }
+
+  .aboutme {background-color: white;
+border: 2px gray solid;
+width: 960px}
+
+body {
+    background-image: url(../images/memphis-colorful.png);
+    background-repeat: repeat;
+}
