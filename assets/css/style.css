@@ -1,16 +1,65 @@
+body {
+    background-image: url(../images/diamond_upholstery.png);
+    background-repeat: repeat;
+}
 
-.header {
+.header{
+    box-sizing: border-box;
+
+    margin: auto;
+    background: white;
+    width: 100%;
+    height: 100px;
+    margin-bottom:10px;
+    border-bottom: 2px gray solid;
+}
+
+.myname {
+    box-sizing: border-box;
+
+    margin: auto;
+    margin-left: 50px;
     padding: 20px;
     color: white;
     background: #4aaaa5;
-    margin-bottom: 15px;
+    width: 250px;
+    float: left;
+    height:100px;
   }
 
-  .aboutme {background-color: white;
-border: 2px gray solid;
+.links
+  {margin: auto;
+      float: right}
+
+  .aboutme 
+  {   margin-left: 15px;
+      margin: auto;
+      box-sizing: border-box;
+      clear:both;
+      background-color: white;
+border: 1px silver solid;
 width: 960px}
 
-body {
-    background-image: url(../images/memphis-colorful.png);
-    background-repeat: repeat;
-}
+
+
+h2 {margin-left:15px;
+    color: #4aaaa5}
+
+hr {margin: 15px}
+
+#headshot {margin:15px;
+    float:left;
+    width:200px;
+    height:200px;}
+
+    .footer{
+        box-sizing: border-box;
+    
+        margin: auto;
+        background: gray;
+        width: 100%;
+        height: 75px;
+        margin-top:50px;
+        border-top: 4px #4aaaa5 solid;
+        text-align: center;
+    }
