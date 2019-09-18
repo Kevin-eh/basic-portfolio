@@ -75,14 +75,24 @@ hr {margin: 15px}
 
     .footer{
         box-sizing: border-box;
-    
+        border-top: 8px solid #4aaaa5;
         margin: auto;
         background: gray;
         width: 100%;
         height: 75px;
         margin-top:50px;
-        border-top: 4px #4aaaa5 solid;
         text-align: center;
     }
 
     .portfolio {padding: 25px;}
+
+    .textbox {Width: 300px;
+        box-sizing: border-box;
+    clear:both;
+    background-color: white;
+border: 1px silver solid;
+width: 500px;
+text-align: auto;}
+
+        .formcity {
+        padding-left: 15px}
