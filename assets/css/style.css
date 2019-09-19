@@ -21,7 +21,7 @@ margin-top: 0px;
     box-sizing: border-box;
 
     margin: auto;
-    margin-left: 50px;
+    margin-left: 268px;
     padding-top: 25px;
     color: white;
     background: #4aaaa5;
@@ -41,6 +41,7 @@ margin-top: 0px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: gray;
     padding: 37px;
+    margin-right:255px;
 }
 
   .aboutme 
@@ -52,6 +53,7 @@ border: 1px silver solid;
 max-width: 960px;
 min-width:800px;
 text-align: auto;
+padding-bottom: 15px;
 }
 
 
@@ -82,17 +84,38 @@ hr {margin: 15px}
         height: 75px;
         margin-top:50px;
         text-align: center;
+        color: white;
     }
 
     .portfolio {padding: 25px;}
 
     .textbox {Width: 300px;
         box-sizing: border-box;
-    clear:both;
-    background-color: white;
-border: 1px silver solid;
-width: 500px;
-text-align: auto;}
+        clear:both;
+        background-color: white;
+        border: 1px silver solid;
+        width: 500px;
+        text-align: auto;}
 
         .formcity {
         padding-left: 15px}
+
+        
+    .bigtextbox {Width: 300px;
+        box-sizing: border-box;
+        clear:both;
+        text-align: left;
+        background-color: white;
+        border: 1px silver solid;
+        width: 500px;
+        height:300px;
+        padding:0px;
+        margin:0px
+    }
+
+    a:link,
+    a:visited,
+    a:active,
+    a:focus {color: gray; text-decoration:none}
+
+    a:hover {color: black}
